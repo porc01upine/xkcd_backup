@@ -1,0 +1,10 @@
+php -S localhost:8000
+
+php cron.php
+
+
+
+#Testing shit
+php -r "echo file_get_contents('https://xkcd.com/614/info.0.json');"
+
+php -i | findstr "allow_url_fopen"
