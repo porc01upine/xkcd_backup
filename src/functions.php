@@ -70,7 +70,7 @@ function fetchAndFormatXKCDData(): string {
 
     return "<h2>XKCD Comic</h2>
             <img src=\"$img\" alt=\"$title\">
-            <p><a href=\"http://localhost/src/unsubscribe.php\" id=\"unsubscribe-button\">Unsubscribe</a></p>";
+            <p><a href=\"http://localhost:8000/src/unsubscribe.php\" id=\"unsubscribe-button\">Unsubscribe</a></p>";
 }
 
 /**

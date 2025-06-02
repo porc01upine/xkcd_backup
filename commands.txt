@@ -3,6 +3,10 @@ php -S localhost:8000
 php cron.php
 
 
+#To setup the bash file
+bash setup_cron.sh
+chmod +x setup_cron.sh
+
 
 #Testing shit
 php -r "echo file_get_contents('https://xkcd.com/614/info.0.json');"
